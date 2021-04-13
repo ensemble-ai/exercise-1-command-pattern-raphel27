@@ -12,7 +12,7 @@ public class PirateController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.ActiveCommand = ScriptableObject.CreateInstance<SlowWorkPirateCommand>();
+        this.ActiveCommand = ScriptableObject.CreateInstance<SlowWorkerPirateCommand>();
     }
 
     // Update is called once per frame
@@ -29,15 +29,15 @@ public class PirateController : MonoBehaviour
         float choice = (Random.value) * 100;
         if (choice <= 33.0)
         {
-            this.ActiveCommand = Object.Instantiate(ScriptableObject.CreateInstance<FastWorkPirateCommand>());
+            this.ActiveCommand = Object.Instantiate(ScriptableObject.CreateInstance<FastWorkerPirateCommand>());
         }
         else if (choice > 33.0 && choice <= 66.0)
         {
-            this.ActiveCommand = Object.Instantiate(ScriptableObject.CreateInstance<SlowWorkPirateCommand>());
+            this.ActiveCommand = Object.Instantiate(ScriptableObject.CreateInstance<SlowWorkerPirateCommand>());
         }
         else
         {
-            this.ActiveCommand = Object.Instantiate(ScriptableObject.CreateInstance<NormalWorkPirateCommand>());
+            this.ActiveCommand = Object.Instantiate(ScriptableObject.CreateInstance<NormalWorkerPirateCommand>());
         }
         
     }

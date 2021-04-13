@@ -8,11 +8,11 @@ namespace Captain.Command
 {
     public class NoWorkPirateCommand : ScriptableObject, IPirateCommand
     {
-        private float TotalWorkDuration;
+        /*private float TotalWorkDuration;
         private float TotalWorkDone;
         private float CurrentWork;
         private const float PRODUCTION_TIME = 2.0f;
-        private bool Exhausted = false;
+        private bool Exhausted = false;*/
 
         public NoWorkPirateCommand()
         {

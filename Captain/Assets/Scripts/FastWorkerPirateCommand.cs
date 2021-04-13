@@ -6,7 +6,7 @@ using Captain.Command;
 
 namespace Captain.Command
 {
-    public class FastWorkPirateCommand : ScriptableObject, IPirateCommand
+    public class FastWorkerPirateCommand : ScriptableObject, IPirateCommand
     {
         private float TotalWorkDuration = 50.0f;
         private float TotalWorkDone = 0.0f;
@@ -14,7 +14,7 @@ namespace Captain.Command
         private const float PRODUCTION_TIME = 2.0f;
         //private bool Exhausted = false;
 
-        public FastWorkPirateCommand()
+        public FastWorkerPirateCommand()
         {
 
         }
