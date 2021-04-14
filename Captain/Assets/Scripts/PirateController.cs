@@ -39,6 +39,7 @@ public class PirateController : MonoBehaviour
         {
             this.ActiveCommand = Object.Instantiate(ScriptableObject.CreateInstance<NormalWorkerPirateCommand>());
         }
-        
+        // The function will generate a randum number called "choice" in range 1-100. Then, base on this
+        // number, the pirates will randumly get in to one of three working status.
     }
 }

@@ -24,7 +24,6 @@ public class CaptainController : MonoBehaviour
         this.Right = ScriptableObject.CreateInstance<MoveCharacterRight>();
         this.Left = ScriptableObject.CreateInstance<MoveCharacterLeft>();
         this.Booty.text = "Booty";
-
     }
 
     // Update is called once per frame
