@@ -38,13 +38,15 @@ namespace Captain.Command
             {
                 if (CurrentWork >= PRODUCTION_TIME)
                 {
-                    var product = (GameObject)Instantiate(productPrefab, pirate.transform.position, pirate.transform.rotation);
-                    var productRigidBody = product.GetComponent<Rigidbody2D>();
-                    productRigidBody.velocity = new Vector2(Random.Range(-2.0f, 2.0f), 6.0f);
+                    var generate_loc = new Vector3(pirate.transform.position.x, pirate.transform.position.y, -1.0f);
+                    var product = (GameObject)Instantiate(productPrefab, generate_loc, pirate.transform.rotation);
+                    product.GetComponent<Rigidbody2D>().velocity = new Vector2(Random.Range(-2.0f, 2.0f), 6.0f);
                     CurrentWork = 0.0f;
-                    // When Currentwork reach Production time, it means a product should be produce.
+                    // When Currentwork reach Production time, it means a product should be produce. 
                     // These statement will create a new product and give it a initial velocity. Then,
-                    // Currentwork will be reset for next production.
+                    // Currentwork will be reset for next production. Sometimes, the product might behind the
+                    // character. Therefore, we get a variable called "generate_loc" and give it a z value
+                    // to insure the product will not be cover by character.
 
                 }
                 return true;
