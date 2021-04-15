@@ -11,4 +11,4 @@ For stage 2 & 3, I create three working mode the detail of function will beexpla
 
 # Stage 4
 
-For stage 4, I add jump feature to the captaion by creating a file called CharacterJump.cs. This file quite like MoveCharactetRight.cs. When the player click "fire2", the captaion will be given a up velocity and achieve jump function. I also add restriction to this function to make the captaion only can jump once. 
+For stage 4, I add jump feature to the captaion by creating a file called CharacterJump.cs. This file quite like MoveCharactetRight.cs. When the player click "fire2", the captaion will be given a up velocity and achieve jump function. I also add restriction to this function to make the captaion only can jump once per click. 
