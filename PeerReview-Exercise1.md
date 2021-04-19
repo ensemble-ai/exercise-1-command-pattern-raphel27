@@ -1,4 +1,8 @@
 # Code Review for Programming Exercise 1 #
+
+Reviewer: Sophie Bolotin 
+Reviewer username: srbolotin.ucdavis.edu (Kerboros: bolo20)
+
 ## Description ##
 
 For this assignment, you will be giving feedback on the completeness of assignment three: Pikmini. In order to to do so, we will be giving you a rubric to give feedback on. For the feedback, please give positive criticism and suggestions on how to fix segments of code.
@@ -18,28 +22,6 @@ A successful submission should consist of a copy of this markdown document templ
 If you are in the rare situation where there are two peer-reviewers on a single repository, append your UC Davis user name before the extension of your review file. An example: PeerReview-Exercise1-username.md. Both reviewers should submit their reviews in the master branch.  
 
 ## Solution Assessment ##
-
-### Description ###
-
-For assessing the solution, you will be choosing ONE choice from: unsatisfactory, satisfactory, good, great, or perfect. Place an x character inside of the square braces next to the appropriate label.
-
-The following are the criteria by which you should assess your peer's solution of the exercise's stages.
-
-#### Perfect #### 
-    Can't find any flaws in relation to the prompt. Perfectly satisfied all stage objectives.
-
-#### Great ####
-    Minor flaws in one or two objectives. 
-
-#### Good #####
-    Major flaw and some minor flaws.
-
-#### Satisfactory ####
-    Couple of major flaws. Heading towards solution, however did not fully realize solution.
-
-#### Unsatisfactory ####
-    Partial work, not really converging to a solution. Pervasive Major flaws. Objective largely unmet.
-
 
 ### Stage 1 ###
 
