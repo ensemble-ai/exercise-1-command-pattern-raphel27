@@ -1,6 +1,6 @@
 # Code Review for Programming Exercise 1 #
 
-Reviewer: Sophie Bolotin 
+Reviewer: Sophie Bolotin   
 Reviewer username: srbolotin.ucdavis.edu (Kerboros: bolo20)
 
 ## Description ##
@@ -25,14 +25,14 @@ If you are in the rare situation where there are two peer-reviewers on a single 
 
 ### Stage 1 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
-- [x] Good
+- [ ] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 #### Justification ##### 
-Write Justification here.
+The pirate moves right and left with the same animation and facing the correct direction which is exactly the task. The code for left and right movement are almost identical besides direction which looks good!
 
 ### Stage 2 ###
 
