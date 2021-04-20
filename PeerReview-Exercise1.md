@@ -47,25 +47,25 @@ The working pirates spawn correctly for the 3 intervals of work (slow, normal an
 
 ### Stage 3 ###
 
-- [ ] Perfect
-- [ ] Great
-- [x] Good
-- [ ] Satisfactory
-- [ ] Unsatisfactory
-
-#### Justifaction ##### 
-Write justifaction here.
-
-### Stage 4 ###
-
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 #### Justifaction ##### 
-Write justifaction here.
+The captain motivates correctly and a random number is generated in order to choose between the three levels of work. The code logic could be simplified by using a different method of the Random class, but this implementation works just as well. 
+
+### Stage 4 ###
+
+- [X] Perfect
+- [ ] Great
+- [ ] Good
+- [ ] Satisfactory
+- [ ] Unsatisfactory
+
+#### Justifaction ##### 
+The custom command chosen for this stage was a jump. The pirate is able to jump while moving and while stationary. They created a new script for the jump command and it is much like the scripts that move the character left and right whereas in this instance, the velocity is in the upwards direction. 
 
 ## Code Style ##
 
@@ -74,17 +74,9 @@ Check the scripts to see if the student code adheres to the dotnet style guide.
 
 If there are sections that don't adhere to the style guide, please peramlink the line of code from Github and justify why the line of code has infractured the style guide.
 
-It should look something like this:
-
-* [description of infraction](https://github.com/dr-jam/ECS189L) - this is the justification.
-
-Here is an example of the permalink drop down on Github.
-
-![Permalink option](../images/permalink_example.png)
-
-Here is another example as well.
-
-* [I go to Github and look at the ICommand script in the ECS189L repo!](https://github.com/dr-jam/ECS189L/blob/1618376092e85ffd63d3af9d9dcc1f2078df2170/Projects/CommandPatternExample/Assets/Scripts/ICommand.cs#L5)
+While there is not any inherent infractions seen throughout the code, I did notice they put their comments after the chunk of code they are referring to; this makes it a bit hard to follow becuase normally the comment would be above the code it is referring to. 
+An example can be found here:
+https://github.com/ensemble-ai/exercise-1-command-pattern-raphel27/blob/215ebfd885ac2b03e2a8843e926a9b09c8bcc69a/Captain/Assets/Scripts/NormalWorkerPirateCommand.cs#L15
 
 ### Code Style Review ###
 
@@ -106,6 +98,8 @@ This should be similar to the Code Style justification.
 
 ### Best Practices Review ###
 
-#### Best Practices Infractions ####
+The code is very neat and organized. They followed .NET guidelines by putting the {} below the statement. I did notice there were 2 lines in the code that could have been combined into one: 
+https://github.com/ensemble-ai/exercise-1-command-pattern-raphel27/blob/215ebfd885ac2b03e2a8843e926a9b09c8bcc69a/Captain/Assets/Scripts/NormalWorkerPirateCommand.cs#L37
+https://github.com/ensemble-ai/exercise-1-command-pattern-raphel27/blob/215ebfd885ac2b03e2a8843e926a9b09c8bcc69a/Captain/Assets/Scripts/NormalWorkerPirateCommand.cs#L39
 
-#### Best Practices Exemplars ####
+Other than that, the code is very clear and follows all the guidelines in the style guide provided to us. 
