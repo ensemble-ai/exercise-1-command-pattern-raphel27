@@ -69,32 +69,13 @@ The custom command chosen for this stage was a jump. The pirate is able to jump 
 
 ## Code Style ##
 
-### Description ###
-Check the scripts to see if the student code adheres to the dotnet style guide.
-
-If there are sections that don't adhere to the style guide, please peramlink the line of code from Github and justify why the line of code has infractured the style guide.
+### Code Style Infractions ###
 
 While there is not any inherent infractions seen throughout the code, I did notice they put their comments after the chunk of code they are referring to; this makes it a bit hard to follow becuase normally the comment would be above the code it is referring to. 
 An example can be found here:
 https://github.com/ensemble-ai/exercise-1-command-pattern-raphel27/blob/215ebfd885ac2b03e2a8843e926a9b09c8bcc69a/Captain/Assets/Scripts/NormalWorkerPirateCommand.cs#L15
 
-### Code Style Review ###
-
-#### Style Guide Infractions ####
-
-#### Style Guide Exemplars ####
-
 ## Best Practices ##
-
-### Description ###
-
-If the student has followed best practices (Unity coding conventions from the StyleGuides document) then feel free to point at these segments of code as examplars. 
-
-If the student has breached the best practices and has done something that should be noted, please add the infracture.
-
-This should be similar to the Code Style justification.
-
-* [description of infraction](https://github.com/dr-jam/ECS189L) - this is the justification.
 
 ### Best Practices Review ###
 
