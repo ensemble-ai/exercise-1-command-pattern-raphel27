@@ -43,7 +43,7 @@ The pirate moves right and left with the same animation and facing the correct d
 - [ ] Unsatisfactory
 
 #### Justification ##### 
-Write Justification here.
+The working pirates spawn correctly for the 3 intervals of work (slow, normal and fast). However, it seems that the pirates keep working after they spawn their last item instead of going straight to the exhausted state. This could be easily fixed by adding in an Exhausted bool to each of the worker scripts. Other than that, the code logic is clear and everything is working. 
 
 ### Stage 3 ###
 
